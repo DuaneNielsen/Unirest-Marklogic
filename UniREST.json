@@ -1,0 +1,28 @@
+{
+  "unirest": {
+    "config": {
+      "generic": {
+        "schema_name": "marklogic",
+        "polling_interval_secs": "30",
+        "logqueryplan": "yes"
+      },
+      "restapiconnectdetails": {
+        "restapi_http_type": "http",
+        "restapi_hostname": "localhost",
+        "restapi_port": "8002",
+        "restapi_authentication_type": "digest",
+        "restapi_username": "admin",
+        "restapi_password": "CAdemo123",
+        "restapi_encrypted_password": "yes", 
+        "restapi_realm_domain": "public",
+        "restapi_token": "",
+        "restapi_encrypted_token": "no"
+      },
+      "epagentconnectdetails": {
+        "apm_http_type": "http",
+        "apm_hostname": "localhost",
+        "apm_port": "8083"
+      }
+    }
+  }
+}
